@@ -9,7 +9,7 @@ class PROPORTION:
     XL = 1.0
 
 
-proportion = PROPORTION.MD
+proportion = PROPORTION.XL
 
 
 class PATHS:
@@ -24,7 +24,7 @@ class PATHS:
     OBJECTS_FOLDER = CWD / "dns-objects"
     CLEAN_DATA_PICKLE = OBJECTS_FOLDER / "clean_data.pickle"
     TRANSFORMED_DATA_PICKLE = OBJECTS_FOLDER / "transformed_data.pickle"
-    EMBEDDINGS = OBJECTS_FOLDER / "embeddings.pickle"
+    EMBEDDINGS = OBJECTS_FOLDER / "embeddings.pkl"
 
     KERAS_MODELS = CWD / "dns-keras-models"
     KERAS_MODEL = KERAS_MODELS / "keras_model.pkl"
